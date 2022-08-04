@@ -240,5 +240,16 @@ main section .show-off p {
   font-weight: 500;
   font-size: 1.2rem;
 }
+/* ========COLLECTION STYLES======== */
+section .collection table {
+  margin: 3rem 0;
+  width: 100%;
+  text-align: left;
+}
+section .collection table thead tr {
+  color: crimson;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
 
 /* =================FOOTER STYLES================= */
