@@ -32,7 +32,7 @@
 
   --border-radius: 2rem;
   --search-padding: 0.5rem 1rem;
-  --btn-padding: 0.5rem 1rem;
+  --btn-padding: 0.25rem 1rem;
   --card-padding: 1rem;
   --card-border-radius: 1rem;
   --transition: all 0.3s ease-in-out;
@@ -98,6 +98,23 @@ img {
   width: 100%;
   object-fit: cover;
 }
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-family: inherit;
+  cursor: pointer;
+  padding: var(--btn-padding);
+  color: var(--color-white-2);
+  border: 3px solid var(--color-green-2);
+  margin-top: 2rem;
+}
+.btn:hover {
+  border: none;
+  background-color: var(--color-green-1);
+}
+/* .learn-more {
+} */
 /* ================NAVBAR STYLES================ */
 nav {
   position: fixed;
@@ -159,10 +176,9 @@ nav .container .logo p {
 }
 
 /* =================RIBBON STYLES================= */
-section {
-  background-color: var(--color-green-2);
-}
 .ribbon {
+  /* position: sticky;
+  top: 5rem; */
   margin-top: 5rem;
   background-color: var(--color-green-3);
   text-align: center;
@@ -179,9 +195,32 @@ header {
   height: 100vh;
   overflow: hidden;
   position: relative;
+  top: 0;
   background-image: url(./images/header-bg.jpg);
 }
-
+header .container {
+  margin-top: 6rem;
+  text-align: left;
+  padding-right: 63%;
+}
+header .container .new {
+  color: var(--color-green-2);
+  border-bottom: 3px solid var(--color-green-2);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+header .container .unique {
+  color: var(--color-green-2);
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+header .container .general {
+  font-size: 1.1rem;
+  color: var(--color-white-3);
+}
 /* =================MAIN STYLES================= */
 
 /* =================FOOTER STYLES================= */
