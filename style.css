@@ -28,7 +28,7 @@
   --color-gray-1: #3a3b3c;
   --color-gray-2: #4e4f50;
 
-  --box-shadow: 0 2rem 3rem rgba(153 160 197/0.18);
+  --box-shadow: 0.5rem 0.5rem 0.8rem rgba(0 0 0/0.3);
 
   --border-radius: 2rem;
   --search-padding: 0.5rem 1rem;
@@ -222,5 +222,23 @@ header .container .general {
   color: var(--color-white-3);
 }
 /* =================MAIN STYLES================= */
+
+/* ======SECTION-1 STYLES====== */
+
+main section .show-off {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #00d360;
+  margin: 8rem;
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--box-shadow);
+  padding: var(--card-padding);
+}
+main section .show-off p {
+  color: var(--color-white-2);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
 
 /* =================FOOTER STYLES================= */
