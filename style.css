@@ -4,25 +4,17 @@
 /* =============CUSTOM VARIABLE DECLARATION============= */
 
 :root {
-  --color-bg-1: #a09895;
-  --color-bg-2: #dbd2d3;
   --color-white-1: #f5f5f5;
   --color-white-2: #f4f4f4;
   --color-white-3: #e4e6eb;
-  --color-yellow: #916d2c;
   --color-red-1: #c84e4a;
   --color-red-2: #cb354e;
   --color-green-1: #7aa93c;
   --color-green-2: #00d360;
   --color-green-3: #81b441;
-  --color-light-blue: #56a4ca;
-  --color-violet: #d868c3;
   --color-orange-1: #f38744;
   --color-orange-2: #e07c40;
   --color-muted: #b0b3b8;
-  --color-nickname-muted: #98a4b3;
-  --color-primary: #2374e1;
-  --color-secondary: #297be5;
   --color-dark-1: #18191a;
   --color-dark-2: #242526;
   --color-gray-1: #3a3b3c;
@@ -240,7 +232,7 @@ main section .show-off p {
 }
 /* ========COLLECTION STYLES======== */
 section .collection table {
-  margin: 3rem 0;
+  margin-top: 3rem;
   width: 100%;
   text-align: left;
 }
@@ -297,6 +289,7 @@ section .collection table thead tr {
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   place-items: center;
+  row-gap: 5rem;
 }
 .item {
   width: 20rem;
