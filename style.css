@@ -133,7 +133,7 @@ nav .container {
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--color-red-2);
+  color: crimson;
 }
 .logo span {
   color: var(--color-white-1);
