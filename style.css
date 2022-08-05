@@ -252,4 +252,46 @@ section .collection table thead tr {
   text-transform: uppercase;
 }
 
-/* =================FOOTER STYLES================= */
+/* ==============ABOUT STYLES============== */
+.about-container {
+  margin-top: 0;
+  display: grid;
+  grid-template-areas:
+    ". . . a a "
+    "b b b a a "
+    "b b b c c ";
+}
+.about-img-1 {
+  grid-area: a;
+  margin-top: 15rem;
+  margin-left: -6rem;
+  z-index: 5;
+}
+.about-img-2 {
+  grid-area: b;
+}
+.about {
+  grid-area: c;
+  height: 100%;
+  margin: 3rem 7rem 0 7rem;
+}
+.about p {
+  margin: 1rem auto;
+  text-align: justify;
+}
+.about-img-1 img {
+  height: 100%;
+  border-radius: 1rem 0 0 1rem;
+}
+.about-img-2 img {
+  height: 100%;
+  border-radius: 0 1rem 1rem 0;
+}
+.about .btn:hover {
+  color: var(--color-dark-1);
+  background-color: var(--color-green-2);
+}
+
+/* ===========CATEGORY STYLES=========== */
+
+/*=================FOOTER STYLES================= */
