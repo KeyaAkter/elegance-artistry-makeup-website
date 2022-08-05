@@ -108,13 +108,12 @@ img {
   color: var(--color-white-2);
   border: 3px solid var(--color-green-2);
   margin-top: 2rem;
+  transition: var(--transition);
 }
 .btn:hover {
   border: none;
   background-color: var(--color-green-1);
 }
-/* .learn-more {
-} */
 /* ================NAVBAR STYLES================ */
 nav {
   position: fixed;
@@ -177,8 +176,6 @@ nav .container .logo p {
 
 /* =================RIBBON STYLES================= */
 .ribbon {
-  /* position: sticky;
-  top: 5rem; */
   margin-top: 5rem;
   background-color: var(--color-green-3);
   text-align: center;
@@ -229,7 +226,7 @@ main section .show-off {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #00d360;
+  background-color: var(--color-green-2);
   margin: 8rem;
   border-radius: var(--card-border-radius);
   box-shadow: var(--box-shadow);
@@ -370,5 +367,48 @@ section .collection table thead tr {
 }
 .contact h5 {
   font-size: 1.5rem;
+}
+
+/* =======SIGN UP STYLES======= */
+.sign-up {
+  background-color: var(--color-green-2);
+  margin: 8rem;
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--box-shadow);
+  padding: var(--card-padding);
+  text-align: center;
+}
+.sign-up h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.15rem;
+}
+.text-submit {
+  margin-bottom: 2rem;
+}
+.text-email {
+  font-family: inherit;
+  border: 3px solid var(--color-gray-1);
+  padding: var(--btn-padding);
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+  width: 23rem;
+}
+.btn-submit {
+  font-family: inherit;
+  border: 3px solid var(--color-gray-1);
+  background-color: var(--color-gray-1);
+  margin-left: 1rem;
+  padding: var(--btn-padding);
+  border-radius: 0.3rem;
+  color: var(--color-white-2);
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  transition: var(--transition);
+}
+.btn-submit:hover {
+  opacity: 0.8;
+  letter-spacing: 0;
 }
 /*=================FOOTER STYLES================= */
