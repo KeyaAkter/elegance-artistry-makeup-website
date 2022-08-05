@@ -254,7 +254,7 @@ section .collection table thead tr {
 
 /* ==============ABOUT STYLES============== */
 .about-container {
-  margin-top: 0;
+  margin-bottom: 5rem;
   display: grid;
   grid-template-areas:
     ". . . a a "
@@ -293,5 +293,40 @@ section .collection table thead tr {
 }
 
 /* ===========CATEGORY STYLES=========== */
+.category {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  place-items: center;
+}
+.item {
+  width: 20rem;
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 1rem;
+}
+.item-img img {
+  border-radius: var(--card-border-radius);
+}
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+.item-details .shop-now {
+  text-align: center;
+  margin: 1rem auto;
+}
+.item-details h3 {
+  text-align: center;
+  margin: 2rem auto;
+}
+.item-details p {
+  text-align: justify;
+}
+.item-details .shop-now:hover {
+  color: var(--color-dark-1);
+  background-color: var(--color-green-2);
+}
 
 /*=================FOOTER STYLES================= */
