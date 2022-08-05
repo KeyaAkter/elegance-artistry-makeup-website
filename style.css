@@ -263,7 +263,7 @@ section .collection table thead tr {
 }
 .about-img-1 {
   grid-area: a;
-  margin-top: 15rem;
+  margin-top: 16rem;
   margin-left: -6rem;
   z-index: 5;
 }
@@ -329,4 +329,46 @@ section .collection table thead tr {
   background-color: var(--color-green-2);
 }
 
+/* =============CONTACT STYLES============= */
+.contact-container {
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-areas:
+    " a a . . ."
+    " a a b b b"
+    " c c b b b";
+}
+.contact-img-1 {
+  grid-area: a;
+  margin-top: 15rem;
+  margin-right: -6rem;
+  z-index: 5;
+}
+.contact-img-1 img {
+  height: 100%;
+  border-radius: 0 1rem 1rem 0;
+}
+.contact-img-2 {
+  grid-area: b;
+}
+.contact-img-2 img {
+  height: 100%;
+  border-radius: 1rem 0 0 1rem;
+}
+.contact {
+  margin-top: 0;
+  grid-area: c;
+  margin: 3rem 7rem 0 7rem;
+}
+.contact p {
+  text-align: justify;
+  margin: 1rem auto;
+}
+.contact .btn:hover {
+  color: var(--color-dark-1);
+  background-color: var(--color-green-2);
+}
+.contact h5 {
+  font-size: 1.5rem;
+}
 /*=================FOOTER STYLES================= */
