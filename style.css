@@ -81,6 +81,7 @@ h3 {
 }
 
 a {
+  font-family: inherit;
   color: var(--color-white-1);
   transition: var(--transition);
 }
@@ -132,15 +133,15 @@ nav .container {
   justify-content: space-between;
   align-items: center;
 }
-nav .logo h2 {
+.logo h2 {
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 600;
 }
-nav .container .logo span {
+.logo span {
   color: var(--color-green-3);
 }
-nav .container .logo p {
+.logo p {
   color: var(--color-muted);
 }
 .nav-links {
@@ -412,3 +413,20 @@ section .collection table thead tr {
   letter-spacing: 0;
 }
 /*=================FOOTER STYLES================= */
+footer {
+  height: 18rem;
+  background-color: var(--color-dark-2);
+  text-align: center;
+}
+footer .logo h2 {
+  padding-top: 6.5rem;
+  letter-spacing: 0.9rem;
+}
+footer .logo p {
+  letter-spacing: 0.1rem;
+}
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
